@@ -31,8 +31,7 @@ app.get('/', (req, res, next) => {
 	);
 	res.send(homePage);
 });
-app.get('/api',(req,res,next)=>{
-	res.json({a:1});
+
 app.use(express.static(path.join(root,'public')))
 app.use('/admin', adminRoutes);
 app.use('/', (req, res, next) => {
