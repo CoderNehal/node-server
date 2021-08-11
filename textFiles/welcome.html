@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/home.css">
+		<link rel="stylesheet" href="css/global.css">
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<canvas id="stars"></canvas>
+			<div class="slider">
+				<button class="btn draw-border"><a href="/admin/view"> view List </a></button>
+				<button class="btn draw-border"><a href="/add"> Add to list</a></button>
+				<button class="btn draw-border"><a href="/remove"> remove from list</a></button>
+				<input type="range" min="0.5" max="15" value="1" step="0.5" />
+				Speed: <span id="speed"></span>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="/js/home.js"></script>
